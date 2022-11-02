@@ -1,10 +1,28 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
+// AOS
+import * as AOS from 'aos';
+
+
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  	selector: 'app-root',
+  	templateUrl: './app.component.html',
+  	styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'ace-portal';
+
+
+
+export class AppComponent implements OnInit {
+
+
+	constructor() { }
+  
+	
+	ngOnInit(): void {
+		AOS.init();
+	}
+  
+	
 }
+  

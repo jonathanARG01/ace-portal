@@ -1,0 +1,16 @@
+<div id="sidebar" class="d-flex">
+
+    <div class="d-flex flex-column wh">
+        
+        <ul class="nav nav-pills flex-column mb-auto">
+        
+            <li class="nav-item my-3 py-1 pe-4" *ngFor="let pagina of paginas" [routerLink]="pagina.link" routerLinkActive="active" data-bs-dismiss="offcanvas">
+                <a class="text-capitalize text-decoration-none">{{ pagina.nombre }}</a>
+            </li>
+        </ul>
+        
+    </div>
+
+</div>
+
+

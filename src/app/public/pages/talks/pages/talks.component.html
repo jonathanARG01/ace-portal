@@ -1,0 +1,10 @@
+
+<div id="page_talks">
+
+    <app-title titulo="ace team talks"></app-title>
+
+    <div class="row"> <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5" *ngFor="let talk of talks">
+        <app-talk [talk]="talk"></app-talk>
+    </div>
+
+</div>

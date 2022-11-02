@@ -1,0 +1,43 @@
+figure {
+    height: 260px;
+    display: block;
+    border-radius: 10px;
+}
+
+figure .card {
+    height: 100%;
+    background-color: #101010;
+    cursor: pointer;
+}
+
+figure .card .card-head {
+    height: 200px;
+}
+
+figure .card .card-body {
+    background-color: #242424;
+}
+
+figure .card .icon {
+    width: 60px;
+}
+
+figcaption {
+    background-color: #101010eb;
+    border: 2px solid #FF0065;
+    border-radius: 10px;
+}
+
+figcaption a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption .arrow {
+    margin-top: 10px;
+}

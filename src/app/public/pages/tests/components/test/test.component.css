@@ -1,0 +1,42 @@
+.card-test {
+    height: 240px;
+    position: relative;
+    border: 2px solid #101010;
+    background-color: #101010;
+    transition-duration: .3s;
+}
+
+.card-test:hover {
+    border: 2px solid #FF0065;
+}
+
+.card-test .btn {
+    position: absolute;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -20px;
+    left: calc(50% - 90px);
+    background: #303030;
+    background: linear-gradient(90deg, rgba(48, 48, 48, 1) 0%, rgba(48, 48, 48, 1) 100%);
+    color: #fff;
+}
+
+.card-test:hover .btn {
+    border: 2px solid #FF0065;
+    background: rgb(255,0,101);
+    background: linear-gradient(90deg, rgba(255,0,101,1) 0%, rgba(252,92,24,1) 100%);
+}
+
+.card-test .card-footer {
+    border-top: 1px solid #cccccc2e;
+}
+
+.card-test .card-footer p {
+    font-style: italic;
+}

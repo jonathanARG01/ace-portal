@@ -1,0 +1,20 @@
+<div class="offcanvas-notifications offcanvas offcanvas-end" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+    
+    <div class="offcanvas-body">
+        
+        <div *ngFor="let notificacion of notificaciones">
+
+            <a class="notificacion d-flex text-decoration-none mb-3 pb-3" href="#" data-bs-dismiss="offcanvas">
+                <img [src]="notificacion.imagen" [alt]="notificacion.imagen" class="miniatura me-3">
+                <div class="d-flex flex-column justify-content-center">
+                    <h5 class="text-white"> "{{ notificacion.nombre }}" </h5>
+                    <h6 class="text-white fw-lighter"> {{ notificacion.tiempo }} </h6>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+

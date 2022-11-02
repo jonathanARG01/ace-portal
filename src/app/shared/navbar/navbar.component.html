@@ -1,0 +1,67 @@
+<nav class="navbar navbar-expand-lg">
+    
+    <div class="container-fluid">
+    
+        <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <a class="navbar-brand ms-lg-5" routerLink="">
+            <img class="logo" src="./../../../../assets/logo.svg">
+        </a>
+
+
+        <div class="options d-flex">
+            
+            <button class="bg-transparent border-0 me-5 position-relative" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                <img class="logo" src="./../../../../assets/notify.svg">
+                <span class="position-absolute bottom-0 start-100 translate-middle-x badge rounded-pill bg-danger text-white">
+                    2
+                </span>
+            </button>
+
+            <div class="rrss">
+                <a class="me-4" href="#">
+                    <img class="logo" src="./../../../../assets/tiktok.svg">
+                </a>
+                <a class="me-4" href="#">
+                    <img class="logo" src="./../../../../assets/facebook.svg">
+                </a>
+                <a class="me-4" href="#">
+                    <img class="logo" src="./../../../../assets/instagram.svg">
+                </a>
+            </div>
+
+        </div>
+
+    
+    </div>
+
+</nav>
+
+
+<app-notifications></app-notifications>
+
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body p-0">
+        <app-menu id="box-menu-offcanvas"></app-menu>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
+  <g id="Grupo_236" data-name="Grupo 236" transform="translate(-32.607 -32.199)">
+    <path id="arrow-ios-forward-outline" d="M1.127,15.784a1.125,1.125,0,0,1-.866-1.845L5.3,7.908.441,1.867A1.125,1.125,0,0,1,.61.28,1.125,1.125,0,0,1,2.252.449L7.686,7.2a1.125,1.125,0,0,1,0,1.429L2.061,15.379a1.125,1.125,0,0,1-.934.405Z" transform="translate(61.393 49.199) rotate(90)" fill="#fff"/>
+    <g id="Elipse_1240" data-name="Elipse 1240" transform="translate(32.607 32.199)" fill="none" stroke="#fff" stroke-width="2">
+      <circle cx="20.5" cy="20.5" r="20.5" stroke="none"/>
+      <circle cx="20.5" cy="20.5" r="19.5" fill="none"/>
+    </g>
+  </g>
+</svg>

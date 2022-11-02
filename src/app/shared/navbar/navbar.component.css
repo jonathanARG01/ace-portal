@@ -1,0 +1,60 @@
+.navbar {
+    height: 70px;
+    background-color: #242424;
+    border-top: 6px solid #FF0065;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+
+.navbar .logo {
+    height: 40px;
+}
+
+.navbar .options img {
+    height: 24px;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+
+.offcanvas-header {
+    position: relative;
+    background-color: #242424;
+}
+
+.offcanvas-header .btn-close {
+    position: absolute;
+    right: 20px;
+    filter: invert(1);
+}
+
+
+@media (max-width: 1300px) {
+
+    .rrss {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
