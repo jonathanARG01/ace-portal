@@ -6,7 +6,7 @@
             <progressbar [max]="100" [value]="80" type="danger" [striped]="true" [animate]="true"><i>80 / 100</i></progressbar>
         </div>
 
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center estado">
             <img class="icon-info me-2" src="./../../../../assets/icon-info.svg">
             Aún no has iniciado tu curso
         </div>
@@ -14,13 +14,13 @@
     </div>
     
     <div class="card-body d-flex justify-content-center align-items-center">
-        <h5 class="card-title text-white fw-semibold">Visión de la Agencia</h5>
+        <h5 class="card-title text-white fw-semibold"> {{ test.nombre }} </h5>
     </div>
 
     <div class="card-footer pt-3 pb-5 mx-2">
         <p class="m-0 text-white fw-light text-center">Comienza tu test</p>
     </div>
 
-    <a href="#" class="btn">Responder</a>
+    <a [routerLink]="['/test', test.id]" class="btn">Responder</a>
 
 </div>

@@ -1,0 +1,13 @@
+.box-ver-talk {
+}
+
+.box-ver-talk iframe {
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+.box-ver-talk h6 {
+    font-size: 20px;
+    color: #FF0065;
+}

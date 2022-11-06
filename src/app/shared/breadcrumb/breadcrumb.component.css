@@ -1,0 +1,24 @@
+.breadcrumb {}
+
+.breadcrumb .breadcrumb-item {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.breadcrumb .breadcrumb-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #707070;
+    font-weight: 500;
+    transition-duration: .3s;
+}
+
+.breadcrumb .breadcrumb-item a:hover {
+    color: #fff;
+}
+
+.breadcrumb .breadcrumb-item:last-child {
+    color: #fff;
+    font-weight: 600;
+}

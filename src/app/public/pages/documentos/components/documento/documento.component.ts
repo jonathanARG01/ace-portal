@@ -19,4 +19,9 @@ export class DocumentoComponent {
   	constructor() {}
 	
 
+	addFavorities( id: string ) {
+		console.log('Agregando a favoritos', id);
+	}
+
+
 }

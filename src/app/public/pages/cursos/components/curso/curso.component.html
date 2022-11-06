@@ -1,0 +1,22 @@
+<div class="card card-curso" data-aos="fade-up">
+
+    <app-rating></app-rating>
+
+    <div class="card-header p-0">
+        <img [src]="curso.miniatura" [alt]="curso.miniatura" class="mini">
+        <div class="download" [routerLink]="['/curso', curso.id]">
+            <img src="./../../../../assets/play.svg" alt="play" class="play">
+        </div>
+    </div>
+    
+    <div class="card-body d-flex flex-column justify-content-between">
+        <h4 class="card-title text-white fw-semibold"> {{ curso.nombre }} </h4>
+        <h5 class="card-text text-white fw-normal"> {{ curso.encargado }} </h5>
+        <h6 class="card-text text-white fw-lighter">¡Felicidades. completaste tu curso!</h6>
+    </div>
+
+    <div class="box-progressbar">
+        <progressbar [max]="100" [value]="80" type="danger" [striped]="true" [animate]="true"><i>80 / 100</i></progressbar>
+    </div>
+
+</div>

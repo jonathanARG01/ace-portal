@@ -1,20 +1,46 @@
 <app-navbar></app-navbar>
 
-<div class="container-fluid">
+<div class="container-fluid p-0">
 
     <div class="row">
 
         <!-- Sidebar -->
-        <div class="col-lg-2 p-0 bg-dark-ap">
+        <div class="col-lg-2 bg-dark-ap">
             <app-menu id="box-menu"></app-menu>
         </div>
 
         <!-- Pages -->
-        <div class="col-lg-10 px-md-5 pages">
-            <router-outlet></router-outlet>
+        <div class="col-lg-10 p-0 pages">
+
+            <div class="px-4 px-md-5">
+
+                <div class="row mb-5">
+                    <div class="col-12 col-md-6">
+                        <app-breadcrumb></app-breadcrumb>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="row mb-5 mb-md-0">
+                            <div class="col-12 col-md-6">
+                                <app-searcher></app-searcher>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <app-filter></app-filter>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <router-outlet></router-outlet>
+
+            </div>
+
+            <app-footer></app-footer>
+        
         </div>
 
     </div>
 
 </div>
+
+
 

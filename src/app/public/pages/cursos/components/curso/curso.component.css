@@ -1,0 +1,69 @@
+.card-curso {
+    max-width: 340px;
+    border-radius: 10px;
+    background-color: #101010;
+    text-decoration: none;
+    border: 2px solid #101010;
+    margin: 0 auto;
+    transition-duration: .3s;
+}
+
+.card-curso:hover {
+    border: 2px solid #FF0065;
+}
+
+.card-curso .card-header {
+    height: 180px;
+    position: relative;
+}
+
+.card-curso .card-header .download {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #10101096;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-curso .card-header .download .play {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.card-curso .card-header .download .play:hover {
+    transform: scale(1.2);
+}
+
+.card-curso .card-header .mini {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-curso .card-body {
+    min-height: 120px;
+    background-color: #10101096;
+    transition-duration: .3s;
+}
+
+.card-curso .card-body h4 {
+    font-size: 16px;
+}
+
+.card-curso .card-body h5 {
+    font-size: 14px;
+}
+
+.card-curso .card-body h6 {
+    font-size: 12px;
+}

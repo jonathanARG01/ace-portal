@@ -39,7 +39,7 @@ export class TestsService {
 		},
 		{
 			id: '02',
-			nombre: 'Visión de la Agencia',
+			nombre: 'Industrias en las que nos enfocamos',
 			preguntas: {
 				'¿Lorem ipsum dolor sit ipsum dolor sit?': {
 					alternativa1: 'Lorem ipsum dolor sit amet, consetetur',
@@ -63,7 +63,7 @@ export class TestsService {
 		},
 		{
 			id: '03',
-			nombre: 'Visión de la Agencia',
+			nombre: 'Organigrama',
 			preguntas: {
 				'¿Lorem ipsum dolor sit ipsum dolor sit?': {
 					alternativa1: 'Lorem ipsum dolor sit amet, consetetur',
@@ -87,7 +87,7 @@ export class TestsService {
 		},
 		{
 			id: '04',
-			nombre: 'Visión de la Agencia',
+			nombre: 'Micro Conductas Ace',
 			preguntas: {
 				'¿Lorem ipsum dolor sit ipsum dolor sit?': {
 					alternativa1: 'Lorem ipsum dolor sit amet, consetetur',
@@ -111,7 +111,103 @@ export class TestsService {
 		},
 		{
 			id: '05',
-			nombre: 'Visión de la Agencia',
+			nombre: 'Área Comercial',
+			preguntas: {
+				'¿Lorem ipsum dolor sit ipsum dolor sit?': {
+					alternativa1: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa2: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa3: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa4: 'Lorem ipsum dolor sit amet, consetetur'
+				},
+				'¿Lorem ipsum dolor sit ipsum dolor?': {
+					alternativa1: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa2: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa3: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa4: 'Lorem ipsum dolor sit amet, consetetur'
+				}
+			},
+			estado: {
+				0: 'no iniciado',
+				1: 'aprobado',
+				2: 'rechazado',
+				3: 'incompleto'
+			}
+		},
+		{
+			id: '06',
+			nombre: 'Área Producción',
+			preguntas: {
+				'¿Lorem ipsum dolor sit ipsum dolor sit?': {
+					alternativa1: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa2: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa3: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa4: 'Lorem ipsum dolor sit amet, consetetur'
+				},
+				'¿Lorem ipsum dolor sit ipsum dolor?': {
+					alternativa1: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa2: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa3: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa4: 'Lorem ipsum dolor sit amet, consetetur'
+				}
+			},
+			estado: {
+				0: 'no iniciado',
+				1: 'aprobado',
+				2: 'rechazado',
+				3: 'incompleto'
+			}
+		},
+		{
+			id: '07',
+			nombre: 'Herramientas Colaborativas',
+			preguntas: {
+				'¿Lorem ipsum dolor sit ipsum dolor sit?': {
+					alternativa1: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa2: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa3: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa4: 'Lorem ipsum dolor sit amet, consetetur'
+				},
+				'¿Lorem ipsum dolor sit ipsum dolor?': {
+					alternativa1: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa2: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa3: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa4: 'Lorem ipsum dolor sit amet, consetetur'
+				}
+			},
+			estado: {
+				0: 'no iniciado',
+				1: 'aprobado',
+				2: 'rechazado',
+				3: 'incompleto'
+			}
+		},
+		{
+			id: '08',
+			nombre: 'Metodologías ágiles',
+			preguntas: {
+				'¿Lorem ipsum dolor sit ipsum dolor sit?': {
+					alternativa1: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa2: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa3: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa4: 'Lorem ipsum dolor sit amet, consetetur'
+				},
+				'¿Lorem ipsum dolor sit ipsum dolor?': {
+					alternativa1: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa2: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa3: 'Lorem ipsum dolor sit amet, consetetur',
+					alternativa4: 'Lorem ipsum dolor sit amet, consetetur'
+				}
+			},
+			estado: {
+				0: 'no iniciado',
+				1: 'aprobado',
+				2: 'rechazado',
+				3: 'incompleto'
+			}
+		},
+		{
+			id: '09',
+			nombre: 'Ace Team',
 			preguntas: {
 				'¿Lorem ipsum dolor sit ipsum dolor sit?': {
 					alternativa1: 'Lorem ipsum dolor sit amet, consetetur',

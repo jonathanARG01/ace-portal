@@ -1,0 +1,17 @@
+<div id="page_cursos">
+
+
+    <div class="container-cursos-categoria" *ngFor="let categoria of categorias">
+        
+        <app-title [titulo]="categoria"></app-title>
+        
+        <div class="row"> <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5" *ngFor="let curso of cursos">
+            <app-curso [curso]="curso"></app-curso>
+        </div>
+
+    </div>
+    
+
+</div>
+
+

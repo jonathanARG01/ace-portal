@@ -1,6 +1,8 @@
 
 <figure class="imghvr-fold-up" data-aos="fade-up">
 
+    <app-rating (click)="addFavorities( documento.id )"></app-rating>
+
     <div class="card border-0 text-decoration-none">
         <div class="card-head d-flex justify-content-center align-items-center">
             <img src="./../../../../assets/icon-pdf.svg" class="icon" [alt]="documento.nombre">

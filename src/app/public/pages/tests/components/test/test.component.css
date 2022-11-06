@@ -14,14 +14,14 @@
     position: absolute;
     border-radius: 30px;
     border: 1px solid #fff;
-    font-size: 16px;
-    width: 180px;
-    height: 40px;
+    font-size: 14px;
+    width: 170px;
+    height: 34px;
     display: flex;
     justify-content: center;
     align-items: center;
     bottom: -20px;
-    left: calc(50% - 90px);
+    left: calc(50% - 85px);
     background: #303030;
     background: linear-gradient(90deg, rgba(48, 48, 48, 1) 0%, rgba(48, 48, 48, 1) 100%);
     color: #fff;
@@ -33,6 +33,10 @@
     background: linear-gradient(90deg, rgba(255,0,101,1) 0%, rgba(252,92,24,1) 100%);
 }
 
+.card-test .card-header .icon-info {
+    width: 20px;
+}
+
 .card-test .card-footer {
     border-top: 1px solid #cccccc2e;
 }
@@ -40,3 +44,12 @@
 .card-test .card-footer p {
     font-style: italic;
 }
+
+.card-test h5 {
+    font-size: 16px;
+}
+
+.card-test .estado {
+    font-size: 14px;
+}
+

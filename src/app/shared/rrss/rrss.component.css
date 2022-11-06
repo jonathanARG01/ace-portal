@@ -1,0 +1,11 @@
+.rrss img {
+    height: 24px;
+}
+
+@media (max-width: 1300px) {
+
+    .rrss {
+        display: none;
+    }
+
+}

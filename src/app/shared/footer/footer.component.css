@@ -1,0 +1,10 @@
+footer {
+    height: 70px;
+    background-color: #101010;
+    border-bottom: 6px solid #FF0065;
+    width: 100%;
+}
+
+footer .logo {
+    height: 40px;
+}

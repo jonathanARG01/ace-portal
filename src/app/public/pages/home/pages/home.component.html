@@ -1,12 +1,69 @@
-
 <div id="page_home">
 
 
-    <app-title titulo="podcast"></app-title>
 
-    <app-title titulo="cursos"></app-title>
 
-    <app-title titulo="ace team talks"></app-title>
 
+    <!-- CONTAINER CAROUSEL MAIN -->
+    <div class="box-carousel">
+        <carousel [isAnimated]="true">
+            <slide class="slide-banner" style="background-image: url('./../../../../assets/slide1.png');"></slide>
+            <slide class="slide-banner" style="background-image: url('./../../../../assets/slide2.png');"></slide>
+            <slide class="slide-banner" style="background-image: url('./../../../../assets/slide3.png');"></slide>
+        </carousel>
+    </div>
+    <!-- CONTAINER CAROUSEL MAIN -->
+
+
+
+    
+
+    <!-- CONTAINER CAROUSEL PODCAST -->
+    <div class="container-carousel-podcast">
+        <app-title titulo="podcast"></app-title>
+    </div>
+    <!-- CONTAINER CAROUSEL PODCAST -->
+
+
+
+
+
+    <!-- CONTAINER CAROUSEL CURSOS -->
+    <div class="container-carousel-cursos">
+        <app-title titulo="cursos"></app-title>
+    </div>
+    <!-- CONTAINER CAROUSEL CURSOS -->
+
+
+
+
+
+    <!-- CONTAINER CAROUSEL TALKS -->
+    <div class="container-carousel-talks">
+
+        <app-title titulo="ace team talks"></app-title>
+
+        <div class="box-carousel">
+            
+            <carousel [itemsPerSlide]="3"
+                      [interval]="5000"
+                      [startFromIndex]="0"
+                      [activeSlide]="0"
+                      [isAnimated]="true">
+
+                <slide class="slide-talk" *ngFor="let talk of talks">
+                    <app-talk [talk]="talk"></app-talk>
+                </slide>
+
+            </carousel>
+            
+        </div>
+
+    </div>
+    <!-- CONTAINER CAROUSEL TALKS -->
+    
+
+
+    
 
 </div>

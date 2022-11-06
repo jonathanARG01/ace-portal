@@ -1,0 +1,11 @@
+.star {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    z-index: 2;
+}
+
+.star rating {
+    font-size: 30px;
+    color: #FC612D;
+}
